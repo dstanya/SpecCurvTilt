@@ -1,17 +1,24 @@
-# HRes_tiltRemoval
-Method of curvature and tilt correction of calibration lines in high-resolution spectra. This method has been developed for Fabry-Perot calibration lines, 
-but it can also be used for Th-Ar lines. The code works well on high to medium SNR lines and has been developed keeping in mind the uniform line density of FP and LFC lines.
-The main limitation of the current code is the ability to deal with low SNR/faint lines (SNR<6) and blended lines of Th-Ar spectra.
-These limitations will be dealt with in the future.
+# SpecCurveTilt : Spectral Curvature and tilt Removal method
+Welcome to the GitHub repository for the Spectral Curvature and Tilt Correction Method, designed for calibration lines in high-resolution spectra. Initially developed for Fabry-Perot calibration lines, this technique is also applicable to Th-Ar lines. The code is optimized for high to medium Signal-to-Noise Ratio (SNR) lines and is tailored to accommodate the uniform line density characteristics of Fabry-Perot (FP) and Laser Frequency Comb (LFC) lines.
 
-More details about the code, is given in: [Tanya et al. 2021](https://opg.optica.org/ao/abstract.cfm?URI=ao-60-31-9906).
+# Limitations
+The current version of the code is adept at addressing curvature and tilt corrections for high SNR lines but is limited in its ability to handle low SNR/faint lines (SNR < 6) and blended lines within Th-Ar spectra. We have plans to address these limitations in future updates.
 
-The code has been tested on FP calibration data from HESP and Th-Ar calibration data from MIKE and XShooter.
-Since this is a post processing technique, a bias subtracted and pre-processed fits file should ideally be used as input.
+# Code Details
+For a comprehensive understanding of the code and its functionality, please refer to our publication: [Tanya et al. 2021](https://opg.optica.org/ao/abstract.cfm?URI=ao-60-31-9906).
 
-Disclaimer: Code is still under development!
+# Data and Testing
+We have rigorously tested the code using Fabry-Perot calibration data from the High-Efficiency Spectrograph (HESP) and Th-Ar calibration data from the MIKE and XShooter instruments. As a post-processing technique, it is recommended to utilize bias-subtracted and pre-processed FITS files as inputs for optimal results.
 
-Kindly cite [Tanya et al. 2021](https://opg.optica.org/ao/abstract.cfm?URI=ao-60-31-9906) if you are using this code for your research.
+# Disclaimer
+Please be aware that the code is currently in its developmental phase. We are working on enhancements and refinements to ensure its effectiveness across various scenarios.
+
+# Citing
+If you decide to incorporate this method into your research, we kindly request you to cite our work: [Tanya et al. 2021](https://opg.optica.org/ao/abstract.cfm?URI=ao-60-31-9906)
+Your citations contribute to the recognition and further development of this tool.
+
+Thank you for your interest in our Spectral Curvature and Tilt Correction Method. 
+We encourage collaboration and feedback from the community to collectively enhance its capabilities.
 
 # Requirements
 The code has been developed in Python 3.7.1.
