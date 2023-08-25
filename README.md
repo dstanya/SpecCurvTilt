@@ -18,7 +18,7 @@ We encourage collaboration and feedback from the community to collectively enhan
 
 # Requirements
 The code has been developed in Python 3.7.1.
-The tracing of apertures has been done using CERES pipeline available on github: https://github.com/rabrahm/ceres.git
+The tracing of apertures has been done using [CERES pipeline](https://github.com/rabrahm/ceres.git) available on github. 
 
 The following python packages are required:
 1. [`numpy`](https://numpy.org/doc/stable/index.html)
